@@ -63,6 +63,8 @@ _latest() {
   docker push ${image_latest_tag}
 }
 
+cmd=$1
+
 case $cmd in
   latest)
    _latest
