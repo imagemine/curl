@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:latest@sha256:686d8c9dfa6f3ccfc8230bc3178d23f84eeaf7e457f36f271ab1acc53015037c
 
 LABEL base=alpine engine=curl version=java11 timezone=UTC port=8080 dir=/opt/app user=app
 
